@@ -1,0 +1,6 @@
+D:\Sanjeev\EmployeeManagement\Employee.DTO\bin\Debug\Employee.DTO.dll
+D:\Sanjeev\EmployeeManagement\Employee.DTO\bin\Debug\Employee.DTO.pdb
+D:\Sanjeev\EmployeeManagement\Employee.DTO\obj\Debug\Employee.DTO.csproj.AssemblyReference.cache
+D:\Sanjeev\EmployeeManagement\Employee.DTO\obj\Debug\Employee.DTO.csproj.CoreCompileInputs.cache
+D:\Sanjeev\EmployeeManagement\Employee.DTO\obj\Debug\Employee.DTO.dll
+D:\Sanjeev\EmployeeManagement\Employee.DTO\obj\Debug\Employee.DTO.pdb

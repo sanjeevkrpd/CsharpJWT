@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Employee Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        .error {
+            color: red;
+        }
+
+        .success {
+            color: green;
+        }
+
+        .Logerror {
+            color: red;
+        }
+
+        .Logsuccess {
+            color: green;
+        }
+
+        .txt-center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="txt-center">EMPLOYEE MANAGEMENT SYSTEM</h1>
+
+    <h2 class="txt-center">LOGIN FORM</h2>
+    <div class="container no1">
+        UserName: <input type="text" id="user" />
+        Password: <input type="password" id="password" />
+        <div class="Logerror" id="Logerror"></div>
+        <div class="Logsuccess" id="Logsuccess"></div>
+        <button id="LoginBtn">Submit</button>
+    </div>
+
+    <hr />
+
+
+
+    <h2 class="txt-center">ADD EMPLOYEE FORM</h2>
+
+    <form id="form1" runat="server">
+        <div class="container">
+            Name:
+            <input id="name" type="text" />
+            <br />
+            Email:
+            <input id="email" type="email" />
+            <br />
+            Gender:
+            <input id="male" name="gender" type="radio" value="Male" /> Male
+            <input id="female" name="gender" type="radio" value="Female" /> Female
+            <input id="others" name="gender" type="radio" value="Others" /> Others
+            <br />
+            Age:
+            <input id="age" type="number" />
+            <div id="success" class="success"></div>
+            <div id="error" class="error"></div>
+            <br />
+            <button id="SubmitBtn" type="button">Submit</button>
+        </div>
+    </form>
+
+    <hr />
+
+    <h2 class="txt-center">DISPLAY EMPLOYEE DETAILS</h2>
+    <div>
+        <p id="disp_success"></p>
+        <p id="disp_error"></p>
+
+        <button id="DispBtn">Verify & Display</button>
+
+        <div id="employeeListContainer">
+
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+D:\Sanjeev\EmployeeManagement\Employee.BAL\bin\Debug\Employee.BAL.dll
+D:\Sanjeev\EmployeeManagement\Employee.BAL\bin\Debug\Employee.BAL.pdb
+D:\Sanjeev\EmployeeManagement\Employee.BAL\bin\Debug\Employee.DAL.dll
+D:\Sanjeev\EmployeeManagement\Employee.BAL\bin\Debug\Employee.DTO.dll
+D:\Sanjeev\EmployeeManagement\Employee.BAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Sanjeev\EmployeeManagement\Employee.BAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Sanjeev\EmployeeManagement\Employee.BAL\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Sanjeev\EmployeeManagement\Employee.BAL\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Sanjeev\EmployeeManagement\Employee.BAL\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Sanjeev\EmployeeManagement\Employee.BAL\bin\Debug\Employee.DAL.pdb
+D:\Sanjeev\EmployeeManagement\Employee.BAL\bin\Debug\Employee.DTO.pdb
+D:\Sanjeev\EmployeeManagement\Employee.BAL\obj\Debug\Employee.BAL.csproj.AssemblyReference.cache
+D:\Sanjeev\EmployeeManagement\Employee.BAL\obj\Debug\Employee.BAL.csproj.CoreCompileInputs.cache
+D:\Sanjeev\EmployeeManagement\Employee.BAL\obj\Debug\Employee.703CD126.Up2Date
+D:\Sanjeev\EmployeeManagement\Employee.BAL\obj\Debug\Employee.BAL.dll
+D:\Sanjeev\EmployeeManagement\Employee.BAL\obj\Debug\Employee.BAL.pdb

@@ -1,0 +1,15 @@
+D:\Sanjeev\EmployeeManagement\Employee.DAL\bin\Debug\Employee.DAL.dll
+D:\Sanjeev\EmployeeManagement\Employee.DAL\bin\Debug\Employee.DAL.pdb
+D:\Sanjeev\EmployeeManagement\Employee.DAL\bin\Debug\Employee.DTO.dll
+D:\Sanjeev\EmployeeManagement\Employee.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Sanjeev\EmployeeManagement\Employee.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Sanjeev\EmployeeManagement\Employee.DAL\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Sanjeev\EmployeeManagement\Employee.DAL\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Sanjeev\EmployeeManagement\Employee.DAL\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Sanjeev\EmployeeManagement\Employee.DAL\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Sanjeev\EmployeeManagement\Employee.DAL\bin\Debug\Employee.DTO.pdb
+D:\Sanjeev\EmployeeManagement\Employee.DAL\obj\Debug\Employee.DAL.csproj.AssemblyReference.cache
+D:\Sanjeev\EmployeeManagement\Employee.DAL\obj\Debug\Employee.DAL.csproj.CoreCompileInputs.cache
+D:\Sanjeev\EmployeeManagement\Employee.DAL\obj\Debug\Employee.56C2D126.Up2Date
+D:\Sanjeev\EmployeeManagement\Employee.DAL\obj\Debug\Employee.DAL.dll
+D:\Sanjeev\EmployeeManagement\Employee.DAL\obj\Debug\Employee.DAL.pdb

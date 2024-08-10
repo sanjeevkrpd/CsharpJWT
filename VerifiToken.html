@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>VerifyToken</title>
+
+
+    <style>
+
+        #success{
+            color : lawngreen;
+        }
+
+        #error{
+            color : red;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div>
+        <p id="sucess"></p>
+        <p id="error"></p>
+
+        <button id="btn">Verify</button>
+    </div>
+
+
+    <script>
+
+        let btn = document.getElementById('btn');
+
+        btn.addEventListener("click", () => {
+
+            let token = localStorage.getItem("token");
+
+            https://localhost:44343/Employee/Login
+        })
+
+    </script>
+
+</body>
+</html>

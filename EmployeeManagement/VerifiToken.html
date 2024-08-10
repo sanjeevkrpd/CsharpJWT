@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>VerifyToken</title>
+
+
+    <style>
+
+        #success{
+            color : green;
+        }
+
+        #error{
+            color : red;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div>
+        <p id="success"></p>
+        <p id="error"></p>
+
+        <button id="btn">Verify</button>
+
+        <div id="employeeListContainer">
+
+        </div>
+    </div>
+
+
+    <script>
+
+        let btn = document.getElementById('btn');
+        let success = document.getElementById('success');
+        let error = document.getElementById("error");
+
+        btn.addEventListener("click", async () => {
+            let urlListEmployee = "https://localhost:44343/Employee/ListEmployee";
+
+            let token = localStorage.getItem("token");
+            console.log(token);
+
+            try {
+                const response = await fetch(urlListEmployee, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}` 
+                    }
+                });
+
+                if (!response.ok) {
+                    error.innerHTML = 'Network response was not ok';
+                    throw new Error('Network response was not ok');
+                }
+
+                const resData = await response.json();
+
+                // Log response data for debugging
+                console.log('Response Data:', resData);
+
+                // Ensure `empList` is accessed correctly and is an array
+                const empList = resData?.data?.Data?.empList;
+
+                if (resData.message === "success" && Array.isArray(empList)) {
+                    displayEmployeeList(empList);
+                    success.innerHTML = 'Authentication & Data Fetched Successfully';
+                } else {
+                    error.innerHTML = "Something went wrong";
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                error.innerHTML = "An error occurred while fetching employee data.";
+            }
+        });
+
+        function displayEmployeeList(empList) {
+            const container = document.getElementById('employeeListContainer');
+            container.innerHTML = ''; // Clear any existing content
+
+            empList.forEach(emp => {
+                // Create a new div for each employee
+                const empDiv = document.createElement('div');
+                empDiv.classList.add('employee');
+
+                // Create a string with the employee details
+                const empDetails = `
+            <p><strong>ID:</strong> ${emp.id}</p>
+            <p><strong>Name:</strong> ${emp.name}</p>
+            <p><strong>Email:</strong> ${emp.email}</p>
+            <p><strong>Gender:</strong> ${emp.gender}</p>
+            <p><strong>Age:</strong> ${emp.age}</p>
+            <hr>
+        `;
+
+                // Set the innerHTML of the div
+                empDiv.innerHTML = empDetails;
+
+                // Append the div to the container
+                container.appendChild(empDiv);
+            });
+        }
+
+    </script>
+
+</body>
+</html>
